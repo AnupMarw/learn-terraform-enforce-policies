@@ -9,4 +9,3 @@ main = rule {
   version.new(tfplan.terraform_version).greater_than("1.5.8")
   # version.new(tfplan.terraform_version).greater_than("1.11.4")
 }
-

@@ -6,6 +6,7 @@ policy "allowed-terraform-version" {
   # enforcement_level = "hard-mandatory"
   enforcement_level = "advisory"
 }
+
 mock "tfplan/v2" {
   module {
     source = "testdata/mock-tfplan-v2.sentinel"
